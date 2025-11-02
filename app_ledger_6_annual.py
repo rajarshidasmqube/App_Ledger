@@ -9,7 +9,30 @@ from ecdsa import SigningKey, SECP256k1
 
 st.set_page_config(page_title="CIT Ledger v1.5 – Annual Dynamics & Market Analytics", layout="wide")
 
+# ---------------------------------------------------------------------------
+# Introductory Description (added per request)
+# ---------------------------------------------------------------------------
+
+st.markdown("""
+### 💡 **About This Platform**
+
+Today’s carbon monetization routes are fragmented.  
+There is an opportunity to create a unified platform that:
+
+1. **Mints high-integrity “Carbon Impact Tokens” (CITs)** against verified decarbonization outcomes,  
+2. **Wraps those tokens with insurance or guarantees** to de-risk quality and delivery, and  
+3. **Lists them with trading partners** that can *stack* eligible attributes  
+   (e.g., **CCP-labeled methodologies**, **Article 6 authorization**, **CORSIA eligibility**) across markets.
+
+This application demonstrates that concept using an interactive,
+data-driven simulation of a CCS (Carbon Capture & Storage) project —
+from baseline quantification through token issuance, registry synchronization,
+and live market analytics.
+""")
+
 st.title("🌍 CCS Carbon Integrity Token (CIT) Platform v1.5 – Dynamic Annual Simulation & Market Analytics")
+
+
 
 # --------------------------- Sidebar Inputs ----------------------------------
 st.sidebar.header("🔧 Base Project Parameters")
