@@ -1,7 +1,11 @@
 streamlit 
 pandas
 numpy
-hashlib, time, secrets, random, json
-matplotlib
+hashlib
+time
+secrets
+random
+json
+matplotlib.py
 networkx
 ecdsa
